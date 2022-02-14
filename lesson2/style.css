@@ -40,3 +40,6 @@ button {
 img {
     margin: 30px;
 }
+input {
+    border-color: lightgrey;
+}
