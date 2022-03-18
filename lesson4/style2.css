@@ -1,0 +1,199 @@
+Body {
+    background-color: lightgray;
+}
+.wrap {
+    width: 1440px;
+    height: auto;
+    margin: auto;
+    background: #ffffff;
+}
+header {
+    display: flex;
+    padding: 70px 190px;
+    justify-content: space-between;
+}
+section {
+    margin: 10px 0 10px 0;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 50px;
+    font-family: Vollkorn;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #000000;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+#grayCircleHeader {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #c4c4c4;
+}
+main {
+    padding: 0 190px;
+}
+.welcomeSection {
+    display: flex;
+    justify-content: space-between;
+}
+.leftSectionWelcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.leftSectionWelcome h2 {
+    font-family: Vollkorn;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 89px;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+button {
+    padding: 20px 40px;
+    border: none;
+    background: #c4c4c4;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.rightSectionWelcome {
+    width: 610px;
+    height: 500px;
+    background: #c4c4c4;
+}
+/* second section about */
+.wrapAbout {
+    display: flex;
+}
+h4 {
+    font-family: Vollkorn;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+.leftSectionAbout {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rightSectionAbout {
+    width: 30%;
+    height: 333px;
+    background: #c4c4c4;
+    margin: 10px;
+}
+.leftSectionAbout p {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+/* three section price */
+.wrapPrice {
+    display: flex;
+}
+.leftSectionPrice {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    height: auto;
+}
+.leftSectionPrice p {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+}
+.rightSectionPrice {
+    width: 340px;
+    height: 338px;
+    background: #c4c4c4;
+}
+/* fourth section team */
+.wrapTeamSection {
+    display: flex;
+    justify-content: space-between;
+}
+.wrapTeamSection p {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #000000;
+}
+.fotoTeam {
+    width: 180px;
+    height: 196px;
+    background: #c4c4c4;
+}
+.teamWrap {
+    width: 180px;
+    height: auto;
+}
+/* footer */
+.footerWrap {
+    display: flex;
+    margin: 40px 40px;
+}
+.footerWrap div {
+    width: 247px;
+    height: auto;
+    margin: 0 10px;
+}
+footer h4 {
+    text-align: center;
+}
+.social {
+    display: flex;
+}
+.social a {
+    padding: 5px;
+    display: block;
+}
+footer p {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #000000;
+}
